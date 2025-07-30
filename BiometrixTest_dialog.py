@@ -59,7 +59,6 @@ class BiometrixTestDialog(QtWidgets.QDialog, FORM_CLASS):
         self.btn_refresh.clicked.connect(self.populate_layer_list)
         self.btn_export.clicked.connect(self.export_to_geojson)
         self.btn_draw_example.clicked.connect(self.draw_example_layer)
-        self.btn_draw_hello.clicked.connect(self.draw_hello)
 
         self.populate_layer_list()
 
