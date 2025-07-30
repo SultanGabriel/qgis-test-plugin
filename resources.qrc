@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/BiometrixTest" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
